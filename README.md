@@ -1,3 +1,15 @@
+> [!IMPORTANT]
+> This checkout is the local Cody Pro fork of opencode.
+>
+> Start here for Cody-specific work:
+>
+> - [CODY_PRO_QUICKSTART.md](CODY_PRO_QUICKSTART.md)
+> - [CODY_PRO_STATUS.md](CODY_PRO_STATUS.md)
+> - [CODY_PRO_TODO.md](CODY_PRO_TODO.md)
+> - [CODY_PRO_LOCAL_MODELS.md](CODY_PRO_LOCAL_MODELS.md)
+>
+> The upstream opencode README remains below while Cody Pro is being adapted.
+
 <p align="center">
   <a href="https://opencode.ai">
     <picture>
