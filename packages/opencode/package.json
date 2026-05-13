@@ -16,7 +16,8 @@
     "db": "bun drizzle-kit"
   },
   "bin": {
-    "opencode": "./bin/opencode"
+    "opencode": "./bin/opencode",
+    "cody-pro": "./bin/opencode"
   },
   "exports": {
     "./*": "./src/*.ts"
