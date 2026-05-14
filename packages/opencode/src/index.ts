@@ -55,7 +55,7 @@ process.on("uncaughtException", (e) => {
 })
 
 const args = hideBin(process.argv)
-const cliName = process.env.CODY_PRO === "1" ? "cody-pro" : "opencode"
+const cliName = process.env.CODY_PRO === "0" ? "opencode" : "cody-pro"
 
 function show(out: string) {
   const text = out.trimStart()
