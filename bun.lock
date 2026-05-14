@@ -330,6 +330,7 @@
       "version": "1.14.41",
       "bin": {
         "opencode": "./bin/opencode",
+        "cody-pro": "./bin/opencode",
       },
       "dependencies": {
         "@actions/core": "1.11.1",
