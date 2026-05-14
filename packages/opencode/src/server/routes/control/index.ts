@@ -88,9 +88,9 @@ export function ControlPlaneRoutes(): Hono {
       openAPIRouteHandler(app, {
         documentation: {
           info: {
-            title: "opencode",
+            title: process.env.CODY_PRO === "0" ? "opencode" : "cody-pro",
             version: "0.0.3",
-            description: "opencode api",
+            description: process.env.CODY_PRO === "0" ? "opencode api" : "Cody Pro API",
           },
           openapi: "3.1.1",
         },
