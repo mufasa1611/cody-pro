@@ -19,10 +19,6 @@ Current reliable gates:
 - `bun run typecheck` in `packages/opencode`: passes.
 - Focused Cody tool smoke tests: pass.
 
-Known gap:
-
-- Full monorepo `bun test --timeout 30000` still times out before useful output. This is tracked in [CODY_PRO_TEST_LOG.md](CODY_PRO_TEST_LOG.md).
-
 ## Start Cody Pro
 
 Install with one command from PowerShell (no files to download):
@@ -70,16 +66,12 @@ From the repo root:
 Important Cody Pro files:
 
 - [CODY_PRO_QUICKSTART.md](CODY_PRO_QUICKSTART.md): first-use commands.
-- [CODY_PRO_STATUS.md](CODY_PRO_STATUS.md): current implementation status.
-- [CODY_PRO_TODO.md](CODY_PRO_TODO.md): remaining milestones.
-- [CODY_PRO_PLAN.md](CODY_PRO_PLAN.md): project direction and milestone plan.
 - [CODY_PRO_LOCAL_MODELS.md](CODY_PRO_LOCAL_MODELS.md): local model setup.
 - [CODY_PRO_INFRA_TOOLS.md](CODY_PRO_INFRA_TOOLS.md): guarded infra tool docs.
 - [CODY_PRO_WEB_RESEARCH.md](CODY_PRO_WEB_RESEARCH.md): web research tool docs.
 - [CODY_PRO_SAFETY_MODEL.md](CODY_PRO_SAFETY_MODEL.md): mutation and approval rules.
 - [CODY_PRO_EXTENSION_POINTS.md](CODY_PRO_EXTENSION_POINTS.md): where Cody extends opencode.
 - [CODY_PRO_PROVIDER_POLICY.md](CODY_PRO_PROVIDER_POLICY.md): local-first provider policy.
-- [CODY_PRO_LEGACY_AUDIT.md](CODY_PRO_LEGACY_AUDIT.md): Cody v1 audit.
 - [CODY_PRO_INSTALL_UPDATE.md](CODY_PRO_INSTALL_UPDATE.md): local install and update policy.
 - [CHANGELOG.md](CHANGELOG.md): release notes.
 
